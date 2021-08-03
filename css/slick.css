@@ -33,7 +33,7 @@
 
 /* Второй слайдер */
 
-.slider-arrow .slick-arrow {
+/* .slider-arrow .slick-arrow {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 20px;
@@ -53,4 +53,34 @@
 
 .slick-slider {
   margin: 0 -8px;
+} */
+
+/* Третий слайдер */
+
+.partner-slider .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-slider .slick-dots li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+.partner-slider .slick-dots button {
+  font-size: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.slick-slider {
+  margin: 0 -8px;
+}
+
+.partner-slider .slick-dots li.slick-active button {
+  background-color: transparent;
+  border: 1px solid #fff;
 }

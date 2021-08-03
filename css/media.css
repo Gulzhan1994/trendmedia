@@ -1,0 +1,874 @@
+@media screen and (max-width: 1300px) {
+  .container {
+    width: 1100px;
+  }
+  .header-logo img {
+    width: 70%;
+    height: 100%;
+    margin-right: 30px;
+  }
+  .header-menu {
+    margin-right: 35px;
+    margin-left: -42px;
+  }
+  .menu-list li a {
+    font-size: 16px;
+  }
+  .header-row a {
+    font-size: 14px;
+  }
+  .btn {
+    font-size: 14px;
+  }
+  .banner-left-text {
+    font-size: 33px;
+    line-height: 42px;
+  }
+  .banner-left-describe {
+    font-size: 13px;
+  }
+  .button {
+    padding: 18px 38px;
+  }
+  .building {
+    width: 100%;
+    width: 620px;
+  }
+  .main {
+    margin-bottom: 100px;
+  }
+  .center-image img {
+    width: 348px;
+  }
+  .section {
+    margin-bottom: 110px;
+  }
+  .advertisement {
+    margin-bottom: 100px;
+  }
+  .advertisement-header {
+    font-size: 42px;
+    line-height: 52px;
+  }
+  .advertisement-description {
+    line-height: 110%;
+  }
+  .advertisement-image img {
+    margin-right: 58px;
+  }
+  .header-higher {
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 42px;
+  }
+  .our-image-description p {
+    font-size: 24px;
+    line-height: 140%;
+  }
+  .advantage {
+    margin-bottom: 110px;
+  }
+  .partner-header {
+    font-size: 42px;
+    line-height: 52px;
+  }
+  .header_burger {
+    display: none;
+  }
+  .service-link {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+  .header-logo img {
+    margin-right: -6px;
+  }
+  .header-menu {
+    margin-right: 20px;
+  }
+  .header-row a {
+    font-size: 14px;
+  }
+  .menu-list li a {
+    font-size: 14px;
+  }
+  .btn {
+    font-size: 14px;
+  }
+  .phone {
+    padding-right: 23px;
+  }
+  .building {
+    width: 590px;
+  }
+  .banner-left {
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  .banner-left-text {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .banner-left-describe {
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .tower-image {
+    margin-right: 20px;
+  }
+  .center-image img {
+    width: 323px;
+    margin-bottom: -20px;
+  }
+  .advertisement-header {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .advertisement-image img {
+    width: 610px;
+    margin-right: 40px;
+  }
+  .advertisement-description {
+    line-height: 14px;
+  }
+  .our-image-description p {
+    font-size: 20px;
+    line-height: 135%;
+  }
+  .service_logos img {
+    width: 170px;
+  }
+  .service-link {
+    font-size: 11px;
+  }
+  .header_burger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    width: 950px;
+  }
+  .header-logo img {
+    margin-right: -29px;
+  }
+  .header-menu {
+    margin-right: 0px;
+  }
+  .phone {
+    padding-right: 16px;
+  }
+  .banner-left-text {
+    font-size: 28px;
+  }
+  .advertisement-image img {
+    margin-right: 28px;
+  }
+  .advertisement-description {
+    line-height: 13px;
+  }
+  .section-list-header {
+    font-size: 24px;
+  }
+  .center-image img {
+    width: 305px;
+  }
+  .halykbank {
+    width: 160px;
+  }
+  .cinema {
+    width: 160px;
+  }
+  .atameken {
+    width: 140px;
+  }
+  .nurbank {
+    width: 180px;
+  }
+  .header_burger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 870px;
+  }
+  .header_burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    background: url("../icons/menu-button.svg") no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    background-size: cover;
+  }
+  .header_burger span {
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+  }
+  .header_burger:before,
+  .header_burger:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    background-color: #ffffff;
+  }
+  .header_burger:before {
+    top: 0;
+  }
+  .header_burger:after {
+    bottom: 0;
+  }
+  .header-content {
+    width: 100%;
+    height: 60px;
+    background: #011027;
+    z-index: 999;
+    justify-content: space-between;
+  }
+  .header-menu {
+    position: absolute;
+  }
+  .menu-list {
+    right: 0;
+    top: 60px;
+    z-index: 10001;
+    background-color: #011027;
+    padding: 20px 30px;
+    margin-top: 0;
+    transform: translateX(220px);
+    transition: 1s;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 160px;
+  }
+  .menu-list li a {
+    line-height: 40px;
+  }
+
+  .menu-list__active {
+    transform: translateX(0);
+  }
+
+  .header_burger__active {
+    background: url(../icons/close.svg) no-repeat center;
+    background-size: contain;
+  }
+  .services_company {
+    display: none;
+  }
+  .header-logo img {
+    width: 200px;
+    margin-right: 180px;
+  }
+  .header-row a {
+    font-size: 18px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .center-image img {
+    width: 280px;
+  }
+  .advertisement-image img {
+    margin-right: 20px;
+    width: 565px;
+  }
+  .banner-right {
+    width: 60%;
+  }
+  .building {
+    width: 520px;
+  }
+  .services_center {
+    margin-left: -26px;
+  }
+  .advertisement-description {
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .tower_location {
+    margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 768px;
+  }
+  .services_center {
+    display: none;
+  }
+  .btn {
+    margin-right: -70px;
+  }
+  .section-content {
+    display: block;
+  }
+  .service-list .services {
+    margin-left: -280px;
+  }
+  .advertisement-content {
+    display: block;
+  }
+  .advertisement-image img {
+    width: 100%;
+  }
+  .advertisement-image img {
+    font-size: 16px;
+  }
+  .center-image img {
+    width: 245px;
+  }
+  .nurbank {
+    width: 150px;
+  }
+  .atameken {
+    width: 130px;
+  }
+  .cinema {
+    width: 120px;
+  }
+  .atameken {
+    width: 130px;
+  }
+  .halykbank {
+    width: 125px;
+  }
+  .bigroup {
+    width: 105px;
+  }
+  .header {
+    margin-bottom: 40px;
+  }
+  .header-row {
+    margin-left: -145px;
+  }
+  .advertisement-description {
+    font-size: 16px;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-left br {
+    display: none;
+  }
+  .banner-left-describe {
+    font-size: 14px;
+  }
+  .building {
+    width: 775px;
+    height: 399px;
+  }
+  .main {
+    margin-bottom: 60px;
+  }
+  .section {
+    margin-bottom: 70px;
+  }
+  .advertisement {
+    margin-bottom: 80px;
+  }
+  .partner {
+    margin-bottom: 70px;
+  }
+  .advantage {
+    margin-bottom: 70px;
+  }
+  .tower_location {
+    margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 650px;
+  }
+  .phone {
+    display: none;
+  }
+  .service-list .services {
+    margin-left: 0px;
+  }
+  .advertisement-header {
+    font-size: 36px;
+    line-height: 38px;
+  }
+  .header-higher {
+    font-size: 36px;
+    line-height: 10px;
+  }
+  .partner-header {
+    font-size: 36px;
+    line-height: 10px;
+    margin-bottom: 20px;
+  }
+  .building {
+    width: 658px;
+  }
+  .banner-left-text {
+    line-height: 28px;
+  }
+  .banner-left-describe {
+    padding-bottom: 15px;
+  }
+  .section-list-header {
+    font-size: 22px;
+  }
+  .section-list {
+    margin-right: 18px;
+  }
+  .section-list-header:not(:nth-child(3)) {
+    margin-right: 26px;
+  }
+  .tower-description h6 {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  .service_logos img {
+    margin-right: 10px;
+  }
+  .partner-logos {
+    display: grid;
+    align-content: space-between;
+    grid-template: repeat(2, 80px) / repeat(3, 168px);
+  }
+  .our-image-description {
+    display: flex;
+  }
+  .our-description {
+    flex-wrap: wrap;
+  }
+  .our-image-description p {
+    font-size: 19px;
+  }
+  .icon-blue {
+    width: 52px;
+    height: 52px;
+    margin: 0px 20px 15px 0px;
+  }
+  .icon-red {
+    width: 52px;
+    height: 52px;
+    margin-right: 20px;
+    margin: 0px 20px 15px 0px;
+  }
+  .icon-blue img {
+    width: 25px;
+    height: 25px;
+    top: 14px;
+    right: 14px;
+  }
+  .icon-red img {
+    width: 25px;
+    height: 25px;
+    top: 14px;
+    right: 14px;
+  }
+  .tower {
+    flex-wrap: wrap;
+  }
+  .tower-image {
+    display: flex;
+  }
+  .center-image img {
+    margin: 0px 40px 10px 0px;
+  }
+  .tower-description {
+    display: block;
+    margin: -25px;
+  }
+  .advertisement-description {
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 530px;
+  }
+  .header-logo img {
+    width: 180px;
+  }
+  .btn {
+    padding: 8px 18px;
+    font-size: 12px;
+  }
+  .building {
+    width: 538px;
+  }
+  .text_contain {
+    font-size: 10px;
+  }
+  .our-image-description p {
+    font-size: 17px;
+  }
+  .header-higher {
+    font-size: 32px;
+  }
+  .partner-header {
+    font-size: 32px;
+  }
+  .advertisement-header {
+    font-size: 32px;
+  }
+  .advertisement-description {
+    font-size: 14px;
+    line-height: 113%;
+  }
+  .center-image img {
+    width: 258px;
+  }
+  .center-image img {
+    margin: 0px 48px 10px 0px;
+  }
+  .tower-description h6 {
+    font-size: 14px;
+  }
+  .section-list-header {
+    font-size: 18px;
+  }
+  .icon-blue {
+    width: 52px;
+    height: 52px;
+    margin: 0px 15px 15px 0px;
+  }
+  .icon-red {
+    width: 52px;
+    height: 52px;
+    margin: 0px 15px 15px 0px;
+  }
+  .icon-blue img {
+    width: 22px;
+    height: 22px;
+    top: 14px;
+    right: 12px;
+  }
+  .icon-red img {
+    width: 22px;
+    height: 22px;
+    top: 14px;
+    right: 14px;
+  }
+  .our-description {
+    display: inline-flex;
+  }
+  .tower-description p {
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 450px;
+  }
+  .header-logo img {
+    width: 150px;
+  }
+  .our-image-description p {
+    margin: auto;
+    font-size: 14px;
+  }
+  .bigroup {
+    width: 100px;
+  }
+  .halykbank {
+    width: 125px;
+  }
+  .cinema {
+    width: 115px;
+  }
+  .cinema {
+    width: 120px;
+  }
+  .nurbank {
+    width: 130px;
+  }
+  .banner-left-text {
+    font-size: 24px;
+  }
+  .banner-left-describe {
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .header {
+    margin-bottom: 20px;
+  }
+  .button {
+    font-size: 12px;
+    padding: 10px 25px;
+  }
+  .building {
+    width: 165%;
+    height: 100%;
+  }
+  .footer-menu {
+    display: block;
+  }
+  .services {
+    margin: 0px 100px;
+  }
+  .section-header {
+    margin-bottom: 15px;
+  }
+  .center-image img {
+    width: 103%;
+    height: 100%;
+  }
+  .tower {
+    display: block;
+  }
+  .tower-image {
+    display: block;
+  }
+  .tower-description {
+    display: block;
+    margin: -18px 0px 0px 0px;
+  }
+  .service-icons img {
+    width: 64%;
+  }
+  .log {
+    justify-content: space-between;
+  }
+  .services img {
+    width: 4%;
+  }
+  .row_text {
+    display: block;
+    text-align: center;
+  }
+  .text_contain {
+    line-height: 8px;
+  }
+  .service-list .services {
+    margin-top: 0px;
+  }
+  .service-link {
+    line-height: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .section-list li {
+    padding-bottom: 10px;
+  }
+  .call {
+    display: none;
+  }
+  .banner-left-text {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .button {
+    font-size: 10px;
+    padding: 8px 20px;
+  }
+  .main {
+    margin-bottom: 50px;
+  }
+  .tower-description h6 {
+    font-size: 12px;
+  }
+  .tower-description p {
+    font-size: 9px;
+  }
+  .section-list {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .advertisement-header {
+    font-size: 25px;
+    line-height: 28px;
+  }
+  .section {
+    margin-bottom: 50px;
+  }
+  .partner-header {
+    font-size: 25px;
+  }
+  .bigroup {
+    width: 85px;
+  }
+  .halykbank {
+    width: 100px;
+    margin-left: -52px;
+  }
+  .cinema {
+    width: 100px;
+    margin-left: -90px;
+  }
+  .atameken {
+    width: 100px;
+  }
+  .nurbank {
+    width: 130px;
+    margin-left: -30px;
+  }
+  .partner {
+    margin-bottom: 30px;
+  }
+  .service-link {
+    font-size: 9px;
+    line-height: 20px;
+  }
+  .service_logos img {
+    width: 128px;
+  }
+  .service-icons img {
+    width: 50%;
+  }
+  .advertisement-description {
+    font-size: 11px;
+  }
+  .header-higher {
+    font-size: 25px;
+    line-height: 28px;
+  }
+  .our-image-description p {
+    text-align: start;
+  }
+  .service-list .services {
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+  }
+  #icon_blue {
+    width: 75px;
+  }
+  #icon_red {
+    width: 60px;
+  }
+  #icon_blue_blue {
+    width: 55px;
+  }
+  .tower-description p {
+    line-height: 12px;
+  }
+  .log {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 250px;
+  }
+  .section-list li {
+    padding-bottom: 10px;
+  }
+  .banner-left-text {
+    font-size: 18px;
+  }
+  .button {
+    padding: 5px 16px;
+  }
+  .advertisement-description {
+    font-size: 9px;
+  }
+  .advertisement {
+    margin-bottom: 50px;
+  }
+  .advertisement-header {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .header-higher {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  .partner-header {
+    font-size: 20px;
+  }
+  .our-image-description p {
+    font-size: 11px;
+    margin: auto;
+  }
+  #icon_blue {
+    width: 70px;
+    height: 42px;
+  }
+  #icon_blue img {
+    width: 18px;
+    height: 18px;
+    top: 12px;
+    right: 9px;
+  }
+  #icon_red {
+    width: 55px;
+    height: 40px;
+  }
+  #icon_red img {
+    width: 18px;
+    height: 18px;
+    top: 12px;
+    right: 9px;
+  }
+  #icon_blue_blue {
+    width: 52px;
+    height: 40px;
+  }
+  #icon_blue_blue img {
+    width: 18px;
+    height: 18px;
+    top: 12px;
+    right: 9px;
+  }
+  #icon_red_red {
+    width: 48px;
+    height: 40px;
+  }
+  #icon_red_red img {
+    width: 18px;
+    height: 18px;
+    top: 11px;
+    right: 11px;
+  }
+  .bigroup {
+    width: 65px;
+  }
+  .halykbank {
+    width: 85px;
+    margin-left: -90px;
+  }
+  .cinema {
+    width: 80px;
+    margin-left: -165px;
+  }
+  .atameken {
+    width: 85px;
+  }
+  .nurbank {
+    width: 100px;
+  }
+  .partner-logos {
+    grid-template: repeat(2, 54px) / repeat(3, 168px);
+  }
+  .service-list .services {
+    margin-top: 0px;
+  }
+  .service-link {
+    line-height: 5px;
+    font-size: 7px;
+  }
+}
